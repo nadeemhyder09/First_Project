@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template with Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right list ">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#bloge">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="div1" id="home">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/img-1.png" style="width:100%;">
+          <div class="carousel-caption">
+            <h1>Satellite Communication</h1>
+            <h1>"... to be leading satellite</h1>
+            <h1> operater and service provider in all Africa</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img-1.png" style="width:100%;">
+          <div class="carousel-caption">
+           <h1>Satellite Communication</h1>
+           <h1>"... to be leading satellite</h1>
+           <h1> operater and service provider in all Africa</h1>
+         </div>
+       </div>
+
+       <div class="item">
+        <img src="images/img-1.png" style="width:100%;">
+        <div class="carousel-caption">
+          <h1>Satellite Communication</h1>
+          <h1>"... to be leading satellite</h1>
+          <h1> operater and service provider in all Africa</h1>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/img-1.png" style="width:100%;">
+        <div class="carousel-caption">
+          <h1>Satellite Communication</h1>
+          <h1>"... to be leading satellite</h1>
+          <h1> operater and service provider in all Africa</h1>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/img-1.png" style="width:100%;">
+        <div class="carousel-caption">
+          <h1>Satellite Communication</h1>
+          <h1>"... to be leading satellite</h1>
+          <h1> operater and service provider in all Africa</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="div2" id="about-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+       <div class="right-ri">
+        <h2 class="heading">ABOUT US</h2>
+        <p class="text">Game of Thrones is roughly based on the storylines of A Song of Ice and Fire set in the fictional Seven Kingdoms of Westeros and the continent of Essos. The series chronicles the violent dynastic struggles among the realm's noble families for the Iron Throne, while other families fight for independence from it. It opens with additional.</p>
+
+        <p class="text">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone in a fantasy setting of magic and dragons. In a 2012 study of deaths per episode, it ranked second out of 40 recent U.S. TV drama series (with an average of 14). while other families fight for independence from it.</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <div class="left-le">
+        <img src="images/img-2.png"  class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="div3" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="headings">
+        <h1 class="heading2">Our Services</h1>
+        <p class="text2">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth"</p>
+        <img src="images/img-15.png" style="padding-left: 40%;">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="sub-div3">
+          <div class="text-center-s">
+            <div class="box-size">
+              <img src="images/Icon_Hemera's_Icon.png" width="45" height="45" class="xs-img">
+              <h2 class="heading3">Hello There</h2>
+            </div>
+          </div>
+          <p class="text3">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone in a fantasy setting of magic and dragons</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="sub-div3">
+          <div class="text-center-s">
+            <div class="box-size">
+              <img src="images/Icon_Hemera's_Icon.png" width="45" height="45" class="xs-img">
+              <h2 class="heading3">Hello There</h2>
+            </div>
+          </div>
+          <p class="text3">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone in a fantasy setting of magic and dragons</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="sub-div3">
+          <div class="text-center-s">
+            <div class="box-size">
+              <img src="images/Icon_Hemera's_Icon.png" width="45" height="45" class="xs-img">
+              <h2 class="heading3">Hello There</h2>
+            </div>
+          </div>
+          <p class="text3">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone in a fantasy setting of magic and dragons</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="div4">
+  <div class="container">
+    <div class="row">
+      <div class="top">
+        <h2 class="heading2">Our Latest Works</h2>
+        <p class="text4">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones<br>tagline, referring to its intrigue-filled plot and dark tone</p>
+        <ul class="list2">
+          <li><a href="#all">All</a></li>
+          <li><a href="#branding">Branding</a></li>
+          <li><a href="#photography">Photography</a></li>
+          <li><a href="#uvux">UVUX</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="div5" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="imgs">
+        <div class="xyz">
+          <img src="images/img-4.png" width="280" class="gallary img-responsive">
+          <div class="middle">
+            <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart"></span>03</div>
+          </div>
+        </div>
+        <div class="xyz">
+          <img src="images/img-5.png" width="280" class="gallary img-responsive">
+          <div class="middle">
+           <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open">193</span><span class="glyphicon glyphicon-heart">03</span></div>
+         </div>
+       </div>
+       <div class="xyz">
+        <img src="images/img-6.png" width="280" class="gallary img-responsive">
+        <div class="middle">
+         <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart"></span>03</div>
+       </div>
+     </div>
+     <div class="xyz">
+      <img src="images/img-7.png" width="280" class="gallary img-responsive">
+      <div class="middle">
+       <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart"></span>03</div>
+     </div>
+   </div>
+   <div class="xyz">
+    <img src="images/img-8.png" width="280" class="gallary img-responsive">
+    <div class="middle">
+     <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart"></span>03</div>
+   </div>
+ </div>
+ <div class="xyz">
+  <img src="images/img-9.png" width="280" class="gallary img-responsive">
+  <div class="middle">
+   <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart"></span>03</div>
+ </div>
+</div>
+<div class="xyz">
+  <img src="images/img-10.png" width="280" class="gallary img-responsive">
+  <div class="middle">
+   <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart">03</span></div>
+ </div>
+</div>
+<div class="xyz">
+  <img src="images/img-11.png" width="280" class="gallary img-responsive">
+  <div class="middle">
+   <div class="abc">Photography<br><span class="glyphicon glyphicon-eye-open"></span>193<span class="glyphicon glyphicon-heart"></span>03</div>
+ </div>
+</div>
+</div>
+<div class="button">
+  <form>
+    <input type="button" name="button" class="button1" value="View All">
+  </form>
+</div>
+</div>
+</div>
+</div>
+<div class="div6" id="bloge">
+  <div class="container">
+    <div class="row">
+     <div class="headings">
+      <h1 class="heading2">Our Latest News</h1>
+      <p class="text4">Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth"</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <img src="images/img-12.png" class="img-responsive">
+      <h4>Showrunner David Benioff<br>
+        <small>10th April, 2018</small></h4>
+        <p>Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <img src="images/img-13.png" class="img-responsive">
+        <h4>Showrunner David Benioff<br>
+          <small>10th April, 2018</small></h4>
+          <p>Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img src="images/img-14.png" class="img-responsive">
+          <h4>Showrunner David Benioff<br>
+            <small>10th April, 2018</small></h4>
+            <p>Showrunner David Benioff jokingly suggested "The Sopranos in Middle-earth" as Game of Thrones' tagline, referring to its intrigue-filled plot and dark tone</p>
+          </div>
+        </div>
+      </div>
+      <div class="div7" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="edit-l">
+                <div class="lists">
+                  <h3 class="lists-heading">Information</h3>
+                  <ul>
+                    <li>About Us</li>
+                    <li>History</li>
+                    <li>Career</li>
+                    <li>Exective Team</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="edit-l">
+               <div class="lists">
+                <h3 class="lists-heading">Services</h3>
+                <ul>
+                  <li>About Us</li>
+                  <li>History</li>
+                  <li>Career</li>
+                  <li>Exective Team</li>
+                  <li>About Us</li>
+                  <li>History</li>
+                  <li>Career</li>
+                  <li>Exective Team</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="edit-l">
+              <div class="lists">
+                <h3 class="lists-heading">Value Chain Products</h3>
+                <ul>
+                  <li>About Us</li>
+                  <li>History</li>
+                  <li>Career</li>
+                  <li>Exective Team</li>
+                  <li>About Us</li>
+                  <li>History</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="editl">
+              <div class="lists">
+               <h3 class="lists-heading">Contacs</h3>
+               <ul>
+                <li>About Us</li>
+                <li>History</li>
+                <li>Career</li>
+                <li>Exective Team</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="div8">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-8 col-sm-7">
+          <div class="mark">
+            <p class="mark1">@2018 Suavis Technologies</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-5">
+          <div class="SM">
+            <ul class="SM-list">
+              <li class="faw" style="background-color: #0666b2;"><a href="http://www.facebook.com"><i class="fa fa-facebook i-color"></i></a></li>
+              <li class="faw" style="background-color: #58c7cd;"><a href="http://www.twitter.com"><i class="fa fa-twitter i-color"></i></a></li>
+              <li class="faw" style="background-color: #4196bb;"><a href="http://www.skype.com"><i class="fa fa-skype i-color"></i></a></li>
+              <li class="faw" style="background-color: #5ad6f3;"><a href="http://www.google.com"><i class="fa fa-google-plus i-color"></i></a></li>
+              <li class="faw" style="background-color: #ec5b61;"><a href="http://www.instagram.com"><i class="fa fa-instagram i-color"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body> 
+</html>

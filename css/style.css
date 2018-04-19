@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i');
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif; 
+}
+header{
+  float: left;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.div1 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.carousel-caption {
+  position: absolute;
+    bottom: 50px;
+    color: white;
+    right: 16px;
+    text-align: right;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border: 0;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar{
+  padding: 20px 0 0 0;
+}
+.list {
+  padding-top: 25px;
+}
+.list li {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.list li a {
+   padding: 5px 5px 5px 10px;
+  border: 3px solid transparent;
+  color: #ffffff !important;
+}
+.list li a:hover{
+  border: 3px solid #356a76;
+}
+.div2 {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+.right-ri {
+  float: left;
+  padding-top: 50px;
+}
+.left-le {
+  float: left;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.heading {
+  padding-left: 50px;
+  color: #31706e;
+}
+.text {
+  padding-left: 50px;
+  text-align: left;
+}
+.carousel-indicators li{
+  border: 3px solid #fff;
+  width: 13px;
+  height: 13px;
+}
+.carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    border: 3px solid #fff;
+    margin: 1px;
+    background-color: #3a8689;
+}
+.div3 {
+  background-image: url("../images/img-3.png");
+  float: left;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+.heading2 {
+  text-align: center;
+  padding-top: 30px;
+  color: #2c6764;
+}
+.text2 {
+  text-align: center;
+  color: white;
+}
+.sub-div3 {
+  float: left;
+}
+.heading3 {
+  color: #2c6764;
+  float: left;
+  margin: 5px  10px 0;
+}
+.text3 {
+  text-align: left;
+  color: white;
+}
+.headings {
+  padding-bottom: 40px;
+}
+.xs-img{
+  float: left;
+}
+.text-center-s{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.box-size {
+  width: 250px;
+  display: inline-block;
+}
+.div4 {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+}
+.text4 {
+  color: #919191;
+  text-align: center;
+}
+.list2 {
+  list-style-type: none;
+  float: left;
+  padding-left: 0;
+  margin: 0;
+  margin-left: 30%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.list2 li {
+  display: inline-block;
+  padding-left: 30px;
+  
+}
+.list2 li a {
+    font-weight: bold;
+    text-decoration: none; 
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    color: #b9b9b8;
+}
+.list2 li a:hover {
+   background-color: #35879e;
+   color: white;
+}
+.div5 {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+.gallary {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.imgs {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.xyz {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin: -4px
+}
+.button {
+  float: left;
+  margin-top: 30px;
+  margin-left: 44%;
+}
+.button1 {
+  background-color: #368494;
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.middle {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3a8994;
+  padding-top: 70px;
+}
+
+.xyz:hover .gallary {
+  opacity: 0.9;
+}
+
+.xyz:hover .middle {
+  opacity: 0.8;
+}
+.abc {
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.div6 {
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+}
+.div7 {
+  float: left;
+  width: 100%;
+  background-color: black;
+}
+.edit-l {
+  float: left;
+  text-align: center;
+  display: inline-block;
+}
+.lists {
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: left;
+
+}
+.lists-heading {
+  padding-left: 20px;
+  color: #2f6b65;
+}
+.div8 {
+  float: left;
+  width: 100%;
+  background-color: black;
+}
+.mark {
+  float: left;
+  background-color: black;
+}
+.SM {
+  float: left;
+}
+.SM-list {
+  float: right;
+  list-style-type: none;
+  padding-left: 40px;
+}
+.SM-list li {
+  display: inline-block;
+  
+}
+.SM-list li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.faw {
+  padding: 4px 7px 3px 10px;
+  margin: 0px 0px 0px 3px;
+}
+.i-color {
+  color: white;
+}
